@@ -1,7 +1,7 @@
 import NCALF_bin
-import ncalf_gui
-import Get_current_players
-import Update_database
+# import ncalf_gui
+# import Get_current_players
+# import Update_database
 
 
 def main():
@@ -19,7 +19,7 @@ def main():
     # Calculate new positions and update the offseason table
     # NCALF_bin.calculate_new_positions(season)
 
-    # Export the previous season stats to an excel file to send out to all team owners
+    # Export the previous season stats to an Excel file to send out to all team owners
     # NCALF_bin.create_draft_stats_spreadsheet(season)
 
     # Create the draft database for the new season from the offseason table
