@@ -32,7 +32,7 @@ def main():
     # OPERATING THE SEASON
     # chromedriver.exe location: Stored in chromedriverfile variable within NCALF_bin.py
 
-    roundno = 11
+    roundno = 12
 
     # ncalf_gui.open_window()
     NCALF_bin.import_changes(season, roundno)
