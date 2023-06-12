@@ -35,7 +35,7 @@ def main():
     roundno = 13
 
     # ncalf_gui.open_window()
-    # NCALF_bin.import_changes(season, roundno)
+    NCALF_bin.import_changes(season, roundno)
     NCALF_bin.Download_player_stats_AFL(season, roundno)
     NCALF_bin.calculate_results(season, roundno)
     NCALF_bin.output_results_reports(season, roundno)
