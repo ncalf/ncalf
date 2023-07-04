@@ -339,7 +339,7 @@ def Download_player_stats_AFL(season, roundno):
 
     roundmatch_ids = []
 
-    for match in range(0, 6):
+    for match in range(0, 9):
         roundmatch_ids.append(json_round["content"][match]["contentReference"]["id"])
 
     # for game in games:
